@@ -1,0 +1,19 @@
+div {
+    height: 100px;
+    width: 200px;
+    margin: auto;
+}
+.button {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    background: -moz-linear-gradient(#D0ECF4, #5BC9E1, #D0ECF4);
+    background: linear-gradient(#D0ECF4, #5BC9E1, #D0ECF4);
+    color: white;
+    font-size: 45px;
+}
+.button:active {
+    background: -moz-linear-gradient(#d0d7f4, #5b90e1, #d0daf4);
+    background: linear-gradient(#d0d7f4, #5b90e1, #d0daf4);
+    color: white;
+}
