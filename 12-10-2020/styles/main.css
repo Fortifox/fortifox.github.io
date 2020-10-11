@@ -1,0 +1,33 @@
+div {
+  margin: 20px auto;
+  width: 80%;
+  height: 120px;
+  
+}
+div:first-child {
+  background-color: yellowgreen;
+  background:linear-gradient(-30deg, transparent 60px, yellowgreen 0) bottom right, linear-gradient(-150deg, transparent 60px, yellowgreen 0) top right, linear-gradient(30deg, transparent 60px, yellowgreen 0) bottom left, linear-gradient(150deg, transparent 60px, yellowgreen 0) top left;
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+}
+div:nth-child(2) {
+  background-color: violet;
+  background:linear-gradient(-30deg, transparent 60px, violet 0) bottom right, linear-gradient(-150deg, transparent 60px, violet 0) top right, linear-gradient(30deg, transparent 60px, violet 0) bottom left, linear-gradient(150deg, transparent 60px, violet 0) top left;
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+}
+div:nth-child(3) {
+  background:linear-gradient(-30deg, transparent 60px, black 0) bottom right, linear-gradient(-150deg, transparent 60px, black 0) top right, linear-gradient(30deg, transparent 60px, black 0) bottom left, linear-gradient(150deg, transparent 60px, black 0) top left;
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+}
+div:nth-child(4) {
+  background:linear-gradient(-30deg, transparent 60px, red 0) bottom right, linear-gradient(-150deg, transparent 60px, red 0) top right, linear-gradient(30deg, transparent 60px, red 0) bottom left, linear-gradient(150deg, transparent 60px, red 0) top left;
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+}
+div:nth-child(5) {
+  background:linear-gradient(-30deg, transparent 60px, grey 0) bottom right, linear-gradient(-150deg, transparent 60px, grey 0) top right, linear-gradient(30deg, transparent 60px, grey 0) bottom left, linear-gradient(150deg, transparent 60px, grey 0) top left;
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+}

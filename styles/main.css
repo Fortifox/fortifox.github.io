@@ -1,39 +1,32 @@
-.main {
-height: 20px;
+div {
+min-height: 15px;
 width: 150px;
 margin-bottom: 5px;
 margin-left: 20px;
-background-color: darkgoldenrod;
+background-color: rgb(241, 195, 79);
 border: 5px solid black;
 
 }
-
-.main:first-child {
+.main:nth-child(6n) > .main1 > .main2 {
   background-color: red;
 }
 
-.main:last-child {
-  background-color: blue;
-}
-
-.main:nth-child(2n) {
-  background-color: red;
-}
 
 .m {
-  width: 80px;
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(0deg, black, black 12.5%, white 12.5%, white 25%);
+}
+
+button {
+  width: 200px;
   height: 80px;
-  background-color: black;
+  border-radius: 50%;
+  background-color: green;
 }
-.m:nth-child(2n) {
-  background-color:white;
-}
-.m1 {
-  margin-left: 40px;
-  width: 80px;
+button :last-child {
+  width: 200px;
   height: 80px;
-  background-color: black;
-}
-.m1:nth-child(2n) {
-  background-color:white;
+  border-radius: 50%;
+  background-color: red;
 }
