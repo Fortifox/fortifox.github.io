@@ -1,7 +1,7 @@
 div {
   width: 250px;
   padding: 25px 0;
-  border: 3px solid black;
+  border: 1px solid black;
   text-align: center;
 }
 .item {
@@ -22,8 +22,10 @@ div {
   padding:0;
 }
 .menu1 {
+  height: 10px;
+  width: 200px;
   background: linear-gradient(-45deg,  rgb(192, 209, 255) 50%, blue 100%);
-  margin-top: -3px;
+  margin-top: -1px;
 }
 .item:hover > .menu {
   display: block;
