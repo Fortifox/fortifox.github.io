@@ -1,0 +1,30 @@
+div {
+  width: 250px;
+  padding: 25px 0;
+  border: 3px solid black;
+  text-align: center;
+}
+.item {
+  position: relative;
+  margin-top: 5px;
+  left: 5px;
+  background: linear-gradient(-45deg, pink 50%, blue 100%);
+}
+.item:hover {
+  background: linear-gradient(-45deg, rgb(192, 209, 255) 50%, blue 100%);
+}
+.menu {
+  position: absolute;
+  display: none;
+  left: 255px;
+  top: 0;
+  border: 0;
+  padding:0;
+}
+.menu1 {
+  background: linear-gradient(-45deg,  rgb(192, 209, 255) 50%, blue 100%);
+  margin-top: -3px;
+}
+.item:hover > .menu {
+  display: block;
+}

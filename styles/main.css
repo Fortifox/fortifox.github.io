@@ -1,32 +1,44 @@
+body {
+  height: 1000px;
+}
+
 div {
-min-height: 15px;
-width: 150px;
-margin-bottom: 5px;
-margin-left: 20px;
-background-color: rgb(241, 195, 79);
-border: 5px solid black;
-
-}
-.main:nth-child(6n) > .main1 > .main2 {
-  background-color: red;
+  border: 5px solid green;
+  padding: 3px;
+  margin: 0 0 5px 0;
 }
 
-
-.m {
-  width: 300px;
-  height: 300px;
-  background: linear-gradient(0deg, black, black 12.5%, white 12.5%, white 25%);
+.elem12 {
+  position: relative;
+  width: 100px;
+}
+.elem12hint {
+  position: absolute;
+  background-color:black;
+  color: white;
+  border: 0;
+  display: none;
+}
+.elem12:hover > .elem12hint {
+  display: block;
 }
 
-button {
-  width: 200px;
-  height: 80px;
+/* .elem11 {
+  position: fixed;
+  border: 5px solid red;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
-  background-color: green;
+  top: 0;
+  left: 0; */
 }
-button :last-child {
-  width: 200px;
-  height: 80px;
-  border-radius: 50%;
-  background-color: red;
+
+
+/* .elem11:hover + .elem12 {
+  opacity: 0;
+  
 }
+.elem13 div::before {
+  content: "*";
+  color:  red;
+} */
