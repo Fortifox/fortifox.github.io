@@ -1,0 +1,33 @@
+.main {
+  position: relative;
+}
+
+.element {
+  border: 2px solid red;
+  position: relative;
+  width: 10px;
+}
+
+.element > div {
+  background-color: blanchedalmond;
+  width: 100px;
+  top: 0;
+}
+.element > div:nth-child(1) {
+  border: 2px solid black;
+  left: 0;
+}
+.element > div:nth-child(2) {
+  border: 2px solid black;
+  position: absolute;
+  left: 103px;
+  display: none;
+}
+
+div:nth-child(1):hover ~ div:nth-child(2) {
+  display: block;
+}
+
+div:nth-child(2):hover {
+  display: block;
+}

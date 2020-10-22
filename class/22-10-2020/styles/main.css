@@ -1,0 +1,40 @@
+.main {
+  position: relative;
+  margin: 70px 50px;
+  border: 1px solid black;
+}
+
+.item {
+  border: 2px solid black;
+  position: absolute;
+  background-color: burlywood;
+  width: 60px;
+  height: 100px;
+  border-radius: 5px;
+}
+.item2 {
+  /* z-index: -1; */
+  left: 50px;
+}
+.item3 {
+  /* z-index: 0; */
+  left: 100px;
+}
+.item4 {
+  /* z-index: 0; */
+  left: 150px;
+}
+.item:hover {
+  z-index: 1;
+  top: -10px;
+  background: content-box radial-gradient(crimson, skyblue);
+  /* color: transparent; */
+  font-size: 0;
+}
+
+
+.backside {
+  top: 0;
+  width: 60px;
+  height: 100px;
+}
