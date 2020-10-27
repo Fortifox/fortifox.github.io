@@ -1,0 +1,116 @@
+@font-face {
+  font-family: "Google Sans";
+  src: url('../fonts/GoogleSans-Bold.woff');
+}
+
+body {
+  background-color: #E5E5E5;
+}
+div {
+  border: 1px solid black;
+}
+.head {
+  position: relative;
+  width: 1926px;
+  height: 36px;
+  left: -7px;
+  display: flex;
+
+}
+.sv {
+  position: absolute;
+  width: 109px;
+  height: 18px;
+  left: 1335px;
+  top: 10px;
+  font-family: Google Sans;
+  font-size: 14px;
+  line-height: 17px;
+  color: #4F4F4F;
+}
+.in {
+  position: absolute;
+  width: 42px;
+  height: 18px;
+  left: 1481px;
+  top: 10px;
+  font-family: Google Sans;
+  font-size: 14px;
+  line-height: 17px;
+  color: #4F4F4F;
+}
+
+.head1 {
+  position: relative;
+  display: flex;
+  width: 1926px;
+  height: 83px;
+  background-color: white;
+
+}
+.vector {
+  position: absolute;
+}
+.sigma {
+  position: absolute;
+  width: 145px;
+  height: 17px;
+  top: 33px;
+  left: 447px;
+  color: #745ACD;
+  font-family: Google Sans;
+  font-size: 23px;
+  line-height: 17px;
+}
+input {
+  position: absolute;
+  width: 644px;
+  height: 38px;
+  top: 20px;
+  left: 627px;
+  border-radius: 3px;
+  font-family: Google Sans;
+  font-size: 15px;
+  line-height: 17px;
+
+}
+button {
+  position: absolute;
+  width: 218px;
+  height: 44px;
+  top: 20px;
+  left: 1297px;
+  border-radius: 3px;
+  font-family: Google Sans;
+  font-size: 14px;
+  color: white;
+  background: #745ACD
+
+}
+.menu {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  width: 1110px;
+  height: 214px;
+  left: 405px;
+}
+.menu1 {
+  position: absolute;
+  width: 368px;
+  height: 169px;
+  background-color: #FF9191;
+}
+.menu2 {
+  position: absolute;
+  width: 368px;
+  height: 169px;
+  background-color: #56CCF2;
+}
+.menu3 {
+  position: absolute;
+  width: 368px;
+  height: 169px;
+  background-color: #FF9191;
+}

@@ -1,0 +1,26 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+  
+
+
+
+
+  width: 80%;
+  height: 80vh;
+  background-color: lightsteelblue;
+}
+.some {
+  background-color: chartreuse;
+  border: 2px solid black;
+  width: 100px;
+  height: 40px;
+  position: relative;
+}
+.test {
+  position: absolute;
+  background-color: brown;
+  left: -40px;
+}

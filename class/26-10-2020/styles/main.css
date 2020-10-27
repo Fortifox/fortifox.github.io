@@ -1,0 +1,31 @@
+.main {
+  width: 550px;
+  height: 500px;
+  background-color: antiquewhite;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.elem {
+  width: 50px;
+  background-color: rgb(187, 187, 187);
+  border: 1px solid black;
+  color:  white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+}
+.h150 {
+  height: 50px;
+}
+.w300 {
+  width: 300px;
+}
+.h50 {
+  height: 50px;
+}
