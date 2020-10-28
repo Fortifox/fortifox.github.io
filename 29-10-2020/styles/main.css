@@ -7,7 +7,7 @@ body {
   background-color: #E5E5E5;
 }
 div {
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 .head {
   position: relative;
@@ -90,27 +90,34 @@ button {
 .menu {
   position: relative;
   display: flex;
-  flex-direction: column;
-  /* justify-content: space-between; */
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   width: 1110px;
-  height: 214px;
+  height: 220px;
   left: 405px;
 }
-.menu1 {
-  position: absolute;
-  width: 368px;
+.elem {
+  width: 358px;
   height: 169px;
-  background-color: #FF9191;
+  border-radius: 5px;
+
 }
-.menu2 {
-  position: absolute;
-  width: 368px;
-  height: 169px;
+
+.phone {
+  background-color: #FF9191;
+  display: flex;
+  justify-content: flex-end;
+}
+.text1 {
+  width: 150px;
+  color: white;
+  font-family: Google Sans;
+  
+}
+.auto {
   background-color: #56CCF2;
-}
-.menu3 {
-  position: absolute;
-  width: 368px;
-  height: 169px;
-  background-color: #FF9191;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end
 }
