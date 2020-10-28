@@ -101,23 +101,37 @@ button {
   width: 358px;
   height: 169px;
   border-radius: 5px;
-
 }
-
 .phone {
+  background-image: url('../images/phone.png');
+  background-position: right;
+  background-repeat: no-repeat;
   background-color: #FF9191;
-  display: flex;
-  justify-content: flex-end;
-}
-.text1 {
-  width: 150px;
-  color: white;
-  font-family: Google Sans;
-  
 }
 .auto {
+  background-image: url('../images/auto.png');
+  background-position: right;
+  background-repeat: no-repeat;
   background-color: #56CCF2;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end
+}
+
+.sp, .au {
+  width: 150px;
+  height: 168px;
+}
+.text1, .textauto1  {
+  color: white;
+  font-family: Google Sans;
+  text-align: center;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 104px;
+}
+.text2, .textauto2 {
+  color: white;
+  font-family: Google Sans;
+  text-align: center;
+  font-size: 14px;
+  line-height: 17px;
+  margin-top: 5px;
 }
