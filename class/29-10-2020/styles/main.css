@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'fft';
+  src: url('../fonts/fontello-3b41dc44/font/fontello.woff');
+}
+
+body {
+  width: 300px;
+  margin: 20px auto;
+}
+
+/* body * {
+  background-color: powderblue;
+  line-height: 24px;
+  margin: 20px 0;
+  height: 200px;
+} */
+
+.div2::before {
+  font-family: 'fft';
+  content: \f104;
+}

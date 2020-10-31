@@ -4,18 +4,20 @@
 }
 
 body {
+  width: 1926px;
   background-color: #E5E5E5;
+  margin: 0 auto;
 }
 div {
   /* border: 1px solid black; */
 }
+
 .head {
   position: relative;
   width: 1926px;
   height: 36px;
   left: -7px;
   display: flex;
-
 }
 .sv {
   position: absolute;
@@ -23,7 +25,7 @@ div {
   height: 18px;
   left: 1335px;
   top: 10px;
-  font-family: Google Sans;
+  font-family: "Google Sans";
   font-size: 14px;
   line-height: 17px;
   color: #4F4F4F;
@@ -34,7 +36,7 @@ div {
   height: 18px;
   left: 1481px;
   top: 10px;
-  font-family: Google Sans;
+  font-family: "Google Sans";
   font-size: 14px;
   line-height: 17px;
   color: #4F4F4F;
@@ -58,7 +60,7 @@ div {
   top: 33px;
   left: 447px;
   color: #745ACD;
-  font-family: Google Sans;
+  font-family: "Google Sans";
   font-size: 23px;
   line-height: 17px;
 }
@@ -69,7 +71,7 @@ input {
   top: 20px;
   left: 627px;
   border-radius: 3px;
-  font-family: Google Sans;
+  font-family: "Google Sans";
   font-size: 15px;
   line-height: 17px;
 
@@ -81,12 +83,13 @@ button {
   top: 20px;
   left: 1297px;
   border-radius: 3px;
-  font-family: Google Sans;
+  font-family: "Google Sans";
   font-size: 14px;
   color: white;
   background: #745ACD
 
 }
+
 .menu {
   position: relative;
   display: flex;
@@ -114,14 +117,13 @@ button {
   background-repeat: no-repeat;
   background-color: #56CCF2;
 }
-
 .sp, .au {
   width: 150px;
   height: 168px;
 }
 .text1, .textauto1  {
   color: white;
-  font-family: Google Sans;
+  font-family: "Google Sans";
   text-align: center;
   font-size: 20px;
   line-height: 24px;
@@ -129,7 +131,7 @@ button {
 }
 .text2, .textauto2 {
   color: white;
-  font-family: Google Sans;
+  font-family: "Google Sans";
   text-align: center;
   font-size: 14px;
   line-height: 17px;

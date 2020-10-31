@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
 
+body {
+  margin: 0 auto;
+}
+
 .main {
   background-color: #b9d6ef;
   height: 800px;
@@ -13,7 +17,7 @@ div {
   position: relative;
   width: 200px;
   margin: 0 auto;
-  height: 114px;
+  height: 95px;
 }
 .clouds > div {
   position: absolute;
@@ -32,7 +36,7 @@ div {
   color: rgb(254, 254, 254);
   text-shadow: 0px 4px 0px rgba(0, 0, 0, 0.17);
   letter-spacing: 2px;
-  margin: 10px auto;
+  margin: 2px auto;
   width: 600px;
   height: 80px;
 }
@@ -42,17 +46,17 @@ div {
   font-size: 14px;
   opacity: 70%;
   text-align: center;
-  margin: 0 auto;
+  margin: 6px auto;
   width: 290px;
   height: 20px;
 }
-.form {
+.info {
   position: relative;
   height: 40px;
   width: 342px;
   margin: 15px auto;
 }
-.form > button {
+.info > button {
   height: 35px;
   font-size: 14px;
   border-radius: 2px;
@@ -62,7 +66,7 @@ div {
   text-shadow: 1px 1px 1px #CD9C33;
   padding: 0 auto;
 }
-.form > input {
+.info > input {
   height: 37px;
   width: 228px;
   padding-left: 10px;
@@ -76,6 +80,7 @@ div {
   height: 491px;
   width: 332px;
   margin: 0 auto;
+  bottom: 905px;
 }
 .ship {
   position: absolute;
@@ -85,18 +90,65 @@ div {
 .sea1 {
   height: 4px;
   background-color: #ddecfa;
-  top: 196px;
+  top: 191px;
   opacity: 70%;
 }
 .sea2 {
   height: 10px;
   background-color: #327dad;
   opacity: 80%;
-  top: 196px;
+  top: 191px;
 }
 .sea3 {
   height: 900px;
   bottom: 295px;
   background-color: #266b97;
-  opacity: 80%;
+  top: 191px;
+}
+.words {
+  position: relative;
+  width: 290px;
+  margin: 0 auto;
+  padding-top: 6px;
+  bottom: 1152px;
+}
+.words > div {
+  position: absolute;
+}
+.form {
+  position: absolute;
+  display: table;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 26px;
+  background-color: #b9d6ef;
+  color: #266b97;
+}
+.form:nth-child(2) {
+  left: 113px;
+}
+.form:nth-child(3) {
+  left: 222px;
+}
+.form > span {
+  vertical-align: middle;
+  display: table-cell;
+}
+.day, .hour, .min {
+  top: 81px;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #f3f3f3;
+}
+.day {
+  left: 6px;
+}
+.hour {
+  left: 107px;
+}
+.min {
+  left: 227px;
 }
