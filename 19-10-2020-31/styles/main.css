@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+body {
+  margin: 0 auto;
+}
+
+.main {
+  background-color: #b9d6ef;
+  height: 800px;
+  position: relative;
+}
+div {
+  position: relative;
+  /* border: 1px solid black; */
+}
+.clouds {
+  position: relative;
+  width: 200px;
+  margin: 0 auto;
+  height: 95px;
+}
+.clouds > div {
+  position: absolute;
+}
+.cloud1 {
+  left: -261px;
+}
+.cloud2 {
+  right: -297px;
+}
+.comingsoon {
+  position: relative;
+  font-size: 6vw;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: rgb(254, 254, 254);
+  text-shadow: 0px 4px 0px rgba(0, 0, 0, 0.17);
+  letter-spacing: 2px;
+  margin: 2px auto;
+  width: 600px;
+  height: 80px;
+  left: 15px;
+}
+.subscrible {
+  position: relative;
+  color: #266B97;
+  font-size: 1.26vw;
+  opacity: 70%;
+  text-align: center;
+  margin: 6px auto;
+  width: 290px;
+  height: 20px;
+}
+.info {
+  position: relative;
+  height: 40px;
+  width: 342px;
+  margin: 15px auto;
+}
+.info > button {
+  height: 35px;
+  font-size: 1.26vw;
+  border-radius: 2px;
+  color: #FEFEFE;
+  border: 1px solid #EAAF30;
+  background: linear-gradient(to bottom, #EECE4B, #E8A933);
+  text-shadow: 1px 1px 1px #CD9C33;
+  padding: 0 auto;
+}
+.info > input {
+  height: 37px;
+  width: 228px;
+  padding-left: 10px;
+  font-size: 1.26vw;
+  border: none;
+  box-shadow: inset 0 2px 3px 0 #DDDCDC;
+  color: #a5a5a5;
+}
+.ice {
+  position: relative;
+  height: 491px;
+  width: 332px;
+  margin: 0 auto;
+  bottom: 905px;
+}
+.ship {
+  position: absolute;
+  bottom: 296px;
+  left: -24px;
+}
+.sea1 {
+  height: 4px;
+  background-color: #ddecfa;
+  top: 191px;
+  opacity: 70%;
+}
+.sea2 {
+  height: 10px;
+  background-color: #327dad;
+  opacity: 80%;
+  top: 191px;
+}
+.sea3 {
+  height: 900px;
+  bottom: 295px;
+  background-color: #266b97;
+  top: 191px;
+}
+.words {
+  position: relative;
+  width: 290px;
+  margin: 0 auto;
+  padding-top: 6px;
+  bottom: 1152px;
+}
+.words > div {
+  position: absolute;
+}
+.form {
+  position: absolute;
+  display: table;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 4.2vh;
+  background-color: #b9d6ef;
+  color: #266b97;
+}
+.form > span {
+  vertical-align: middle;
+  display: table-cell;
+}
+.form:nth-child(2) {
+  left: 113px;
+}
+.form:nth-child(3) {
+  left: 222px;
+}
+.day, .hour, .min {
+  top: 81px;
+  font-size: 1.8vw;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #f3f3f3;
+}
+.day {
+  left: 6px;
+}
+.hour {
+  left: 107px;
+}
+.min {
+  left: 227px;
+}
