@@ -1,24 +1,5 @@
-@font-face {
-  font-family: 'fft';
-  src: url('../fonts/fontello-3b41dc44/font/fontello.woff');
-}
-
-body {
-  width: 60%;
-  height: 3000px;
-  /* border: 3px solid blue; */
-}
-
-.div2 {
-  border: 3px solid black;
-  font-size: 15vw;
-  width: 60vw;
-  height: 20vw;
-}
-
-.div2::before {
-  font-family: 'fft';
-  content: \f104;
-  font-size: 15vw;
-  color: royalblue;
+body * {
+  border: 1px solid black;
+  /* width: 100px; */
+  height: 50px;
 }

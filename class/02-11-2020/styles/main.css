@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(178, 235, 93);
+}
+/* .main {
+  margin: 0 100px;
+  width: 300px;
+  height: 150px;
+  background-color: white;
+  position: relative;
+}
+.qw {
+  position: absolute;
+}
+.rt {
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  border: 4px solid black;
+  left: 0px;
+  background-color: cornflowerblue;
+  transition-property: all;
+  transition-duration: 2s;
+  transition-timing-function: ease;
+  transition-delay: 1s;
+  transition: all 5s cubic-bezier(.17,.67,.83,.67) 0s;
+}
+.rt:hover {
+  background-color: coral;
+  border: 4px solid white;
+  left: 100px;
+} */
+.qw {
+  background-image: url('../images/apple.jpg');
+  margin: 50px auto;
+  position: relative;
+  width: 800px;
+  height: 800px;
+  opacity: 0;
+}
+.qw:hover {
+  opacity: 100;
+  border: 5px solid green;
+  border-radius: 100px;
+  transition-property: all;
+  transition-duration: 4s;
+  transition-timing-function: ease;
+  transition-delay: 1s;
+  /* transition: all 8s ease; */
+}
