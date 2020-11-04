@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(182, 231, 107);
+  background-color: rgb(173, 235, 80);
 }
 /* .main {
   margin: 0 100px;
@@ -37,6 +37,7 @@ body {
 }
 .qw {
   background-image: url('../images/apple.jpg');
+  background-position: center;
   margin: 50px auto;
   position: relative;
   width: 800px;
@@ -45,12 +46,12 @@ body {
 }
 .qw:hover {
   opacity: 100;
-  /* outline: 5px solid green; */
   border: 5px solid transparent green;
   border-radius: 50px;
   transition-property: all;
   transition-duration: 4s;
   transition-timing-function: ease;
   transition-delay: 8s;
-  transition: all 8s ease;
+  transform: rotate(180deg);
+  /* transition: all 10s ease, border-radius 2s ease 2s,  */
 }
