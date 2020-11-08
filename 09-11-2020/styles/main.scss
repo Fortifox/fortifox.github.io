@@ -1,0 +1,17 @@
+$cube_wh: 70px;
+
+.main {
+  width: 500px;
+  border: 1px solid black;
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15px auto;
+
+  div {
+    height: $cube_wh;
+    width: $cube_wh;
+    background-color: gray;
+    margin: 15px;
+  }
+}

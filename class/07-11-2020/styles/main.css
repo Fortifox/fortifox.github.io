@@ -1,0 +1,30 @@
+.rt {
+  border-radius: 5px;
+  width: 180px;
+  height: 500px / 20px;
+  background: -webkit-gradient(linear, left top, left bottom, from(red), to(yellow));
+  background: linear-gradient(to bottom, red, yellow);
+}
+
+.rt div {
+  background-color: green;
+}
+
+.rt div:active {
+  color: #ffdfc4;
+}
+
+.rt span {
+  font-size: 3em;
+}
+
+.some {
+  height: 100px;
+  width: 120px;
+  background-color: grey;
+}
+
+.some:hover {
+  background-color: violet;
+}
+/*# sourceMappingURL=main.css.map */

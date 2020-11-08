@@ -1,0 +1,33 @@
+$some_widht: 120px;
+$sky_color: lightblue;
+$face_color: #ffdfc4;
+$new_font_size: 3em;
+
+
+.rt {
+  border-radius: 5px;
+  width: $some_widht *1.5;
+  height: 500px / 20px;
+  background: linear-gradient(to bottom, red, yellow);
+
+  div {
+    background-color: green;
+  
+  &:active {
+    color: $face_color;
+    }
+  }
+
+  span {
+    font-size: $new_font_size;
+  }
+}
+.some {
+  height: 100px;
+  width: $some_widht;
+  background-color: grey;
+  
+  &:hover {
+    background-color: violet;
+  }
+}

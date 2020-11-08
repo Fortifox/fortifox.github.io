@@ -1,0 +1,46 @@
+@keyframes anim1 {
+  0% {
+    from {left: 0px;}
+    to {left: 100px;}
+  }
+  25% {left: 80px;}
+  50% {top: 50px}
+  100% {
+    left: 100px;
+  }
+}
+body {
+  background-color: rgb(241, 226, 158);
+}
+/* .main { */
+  margin: 50px 100px;
+  width: 200px;
+  height: 300px;
+  position: relative;
+  background-color: white;
+}
+/* .rt { */
+  border: 2px solid black;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  animation: anim1 2s linear 1s 5 infinite forwards;
+  /* animation-name: anim1;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 4;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-play-state: running; */
+}
+/* .rt2 { */
+  top: 100px;
+}
+
+.clock {
+  background-image: url('../images/clock.png');
+  position: relative;
+  border: 1px solid black;
+}
