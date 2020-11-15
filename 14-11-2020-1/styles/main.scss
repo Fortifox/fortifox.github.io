@@ -1,0 +1,32 @@
+.main {
+  height: 80vh;
+  background-color: darkorange;
+  max-width: 500px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.test {
+  border: 1px solid black;
+  margin: 3px;
+  height: 40px;
+  width: 100px;
+}
+
+@media screen and (max-width: 500px) {
+  .main {
+    width: 320px;
+  }
+}
+@media screen and (orientation: portrait) {
+  .test {
+    background-color: red;
+  }
+}
+@media print {
+  * {
+    background-color: green;
+  }
+}

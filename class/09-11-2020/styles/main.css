@@ -1,0 +1,19 @@
+.main {
+  height: 92vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 5fr 7fr 4fr;
+      grid-template-rows: 5fr 7fr 4fr;
+  -ms-grid-columns: 6fr 14fr 12fr;
+      grid-template-columns: 6fr 14fr 12fr;
+}
+
+.sq {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 2 / 2 / 3 / 3;
+  border: 2px solid black;
+}
+/*# sourceMappingURL=main.css.map */
