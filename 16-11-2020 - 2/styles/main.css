@@ -141,9 +141,9 @@ div {
 
 @media screen and (max-width: 1206px) {
   .header-inside {width: 100%}
-    header {min-width: 100%}
-    header .in {
-    margin-right: 15px;
+  .header {min-width: 100%}
+  .header .in {
+    margin-right: 0px;
   }
   .header-2 {
     height: 100%;
@@ -177,8 +177,6 @@ div {
 @media screen and (max-width: 1110px) {
   .info {
     justify-content: space-around;
-    font-weight: bold;
-    color: #333333;
   }
 }
 @media screen and (max-width: 945px) {
