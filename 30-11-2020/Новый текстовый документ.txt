@@ -1,0 +1,18 @@
+const getArr = () => {
+  return [1, 4, 6 ,3 ,7, 2, 8, 0, 2];
+};
+
+
+const fixArr = (index, array) => {
+  if (array[index] !== (array[index - 1] + array[index+1])) {
+    array[index] = (array[index - 1] + array[index+1]);
+  }
+  return array;
+};
+
+const arr = getArr();
+fixArr(2, arr);
+fixArr(5, arr);
+fixArr(7, arr);
+
+console.log(arr);

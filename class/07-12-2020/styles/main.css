@@ -1,0 +1,112 @@
+div {
+  border: 1px solid black;
+}
+.main {
+  margin: 0 auto;
+}
+.header {
+  /* margin: 0 auto; */
+  background-color: #8BFB57;
+  height: 54px;
+}
+.header-in {
+  margin: 0px auto;
+  height: 54px;
+  width: 1240px;
+  display: flex;
+  justify-content: space-between;
+}
+.header-number {
+  width: 162px;
+  height: 34px;
+  font-size: 29px;
+}
+.header-text {
+  width: 461px;
+  height: 34px;
+  font-size: 29px;
+}
+.info-all {
+  height: 288px;
+  display: flex;
+
+}
+.info-all-in {
+  margin: 0 auto;
+  width: 1236px;
+  height: 288px;
+}
+.info {
+  /* margin: 0 auto; */
+  height: 91px;
+  padding-bottom: 41px;
+}
+.info-in {
+  border: 1px solid black;
+  height: 91px;
+  width: 1240px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.block {
+  display: flex;
+}
+.home {
+  border: 1px solid black;
+  width: 141px;
+  text-align: center;
+  font-size: 29px;
+}
+.register {
+  border: 1px solid black;
+  width: 181px;
+  text-align: center;
+  font-size: 29px;
+}
+.shoping {
+  border: 1px solid black;
+  width: 288px;
+  text-align: center;
+  font-size: 29px;
+}
+.checkout {
+  border: 1px solid black;
+  width: 188px;
+  text-align: center;
+  font-size: 29px;
+}
+.login {
+  border: 1px solid black;
+  width: 168px;
+  text-align: center;
+  font-size: 29px;
+}
+.text {
+  margin-top: 28px;
+}
+.line {
+  /* margin: 0 auto; */
+  padding-bottom: 3px;
+}
+.line-in {
+  margin: 0 auto;
+  width: 1234px;
+  height: 64px;
+  background-color: #6DF17A;
+}
+.produck {
+  height: 315px;
+}
+.produck-in {
+  margin: 0 auto;
+  height: 315px;
+  width: 1240px;
+}
+.produck-image {
+  width: 211px;
+  height: 315px;
+  background-image: url('../images/image\ 3.svg');
+  background-repeat: no-repeat;
+}
+.produck-info {}

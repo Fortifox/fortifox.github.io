@@ -13,11 +13,11 @@ const findSimpleNum = (strt) => {
     let str = '';
     while (foundNums < maxNums) {
         if (checkNum(strt + radius)) {
-            str = `${str} ${str + radius}`;
+            str = `${str} ${strt + radius}`;
             foundNums += 1;
         }
         if (checkNum(strt - radius)) {
-            str = `${str} ${str - radius}`;
+            str = `${str} ${strt - radius}`;
             foundNums += 1;
         }
         radius = radius + 1;
