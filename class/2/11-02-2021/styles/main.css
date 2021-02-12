@@ -1,0 +1,39 @@
+.test-div {
+	border-radius: 1px, solid black;
+	color: red;
+	background: blue;
+}
+.link {
+	text-decoration:none;
+	color: #0254484;
+}
+.squre {
+	height: 200px;
+	width: 450px;
+	border-radius: 10px;
+	background: #acacac;
+}
+	
+	
+.in-one {
+	width: 200px;
+	height: 170px;
+	background-image: url('https://www.imgonline.com.ua/examples/bee-on-daisy.jpg');
+	background-size: 150px;
+	background-repeat: no-repeat;
+	margin: 15px 15px auto;
+	
+}
+.in-two {
+	width: 200px;
+	height: 190px;
+	margin
+}
+
+.block {
+	background: #acacac;
+	width: 200px;
+	height: 100px;
+	padding: 10px 100px 20px 15px;
+	border: 1px solid black;
+}
