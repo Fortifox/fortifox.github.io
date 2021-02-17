@@ -1,0 +1,20 @@
+.container1 {
+	display: flex;
+	border: 2px solid blue;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.container1 div {
+	border: 3px solid red;
+	width: 250px;
+	height: 250px;
+	font-size: 4rem;
+	
+}
+.container2 {
+	background: #dddddd;
+}
+.container2 div {
+	border: 1px solid red;
+	float: left;
+}
