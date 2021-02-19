@@ -12,6 +12,28 @@ div {
     background: gainsboro;
     opacity: .6;
 }
+.overlay-massage {
+    position: fixed;
+    margin: 0 auto;
+    width: 900px;
+    height: 450px;
+    top: 150px;
+}
+.overlay-massage-header {
+    width: 900px;
+    height: 150px;
+    background: red;
+}
+.overlay-massage-midle {
+    width: 900px;
+    height: 150px;
+    background: white;
+}
+.overlay-massage-end {
+    width: 900px;
+    height: 150px;
+    background: red;
+}
 .header {
     position: fixed;
     display: flex;
