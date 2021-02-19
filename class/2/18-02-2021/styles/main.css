@@ -1,0 +1,23 @@
+.cont {
+	width: 350px;
+	height: 150px;
+	background: blue;
+}
+.sale {
+	position: absolute;
+	background: red;
+	display: inline-block;
+	padding: 4px 8px;
+	border-radius: 4px;
+	background: blue;
+}
+.box-2 {
+	width: 100px;
+	height: 700px;
+	background: yellow;
+}
+.model {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+}

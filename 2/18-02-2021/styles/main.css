@@ -5,13 +5,16 @@ body {
 div {
     /* border: 1px solid black; */
 }
-header {
+.header {
+    position: fixed;
+    position: absolute;
     display: flex;
     height: 60px;
     background: linear-gradient(to right, #f69d3c 25%, #e93e3e 55%, #967ab6 70%, #329dac 100%);
     margin-bottom: 25px;
 }
 .logo {
+    position: relative;
     display: flex;
     align-items: center;
     height: 60px;
@@ -20,6 +23,7 @@ header {
     font-size: 2em;
 }
 .menu {
+    position: relative;
     display: flex;
     justify-content: space-between;
     height: 60px;
