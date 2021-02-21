@@ -14,10 +14,10 @@ div {
 }
 .overlay-massage {
     position: fixed;
-    margin: 0 auto;
     width: 900px;
     height: 450px;
-    top: 150px;
+    margin: 0 auto;
+    opacity: 100%;
 }
 .overlay-massage-header {
     width: 900px;
