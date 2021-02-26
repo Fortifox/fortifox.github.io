@@ -1,0 +1,26 @@
+.test {
+    background-color: brown;
+    width: 250px;
+    height: 250px;
+}
+.test li:hover {
+    background: cadetblue;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+li:nth-child(2n+1) {
+    background-color: cornflowerblue;
+}
+li:first-child {
+    font-size: 2em;
+}
+li:last-child {
+    color: crimson;
+}
+div:not(.t1) {
+    background-color: darkkhaki;
+}

@@ -1,0 +1,12 @@
+.cont {
+    display: flex;
+    justify-content: space-between;
+    background-color: seagreen;
+    padding: 20px;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+.col {
+    width: 45%;
+    background-color: sienna;
+}
