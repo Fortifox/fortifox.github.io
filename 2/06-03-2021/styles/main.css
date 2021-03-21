@@ -1,0 +1,121 @@
+header {
+    margin: 0 auto;
+    width: 1000px;
+}
+.header-in {
+    outline: 1px solid black;
+    margin: 0 auto;
+    width: 940px;
+    height: 135px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    outline: 1px solid black;
+    width: 95px;
+    height: 135px;
+    background-color: wheat;
+}
+.name {
+    outline: 1px solid black;
+    width: 725px;
+    font-size: 3em;
+}
+.region {
+    outline: 1px solid black;
+    width: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.header-nav {
+    outline: 1px solid black;
+    width: 1000px;
+    height: 36px;
+    background-color: rgb(62, 102, 154);
+    color: white;
+}
+.header-nav-in {
+    margin: 0 auto;
+    width: 940px;
+    height: 36px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+.main {
+    outline: 1px solid black;
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 38px;
+}
+.container-1 {
+    outline: 1px solid black;
+    margin: 0 auto;
+    width: 940px;
+    height: 306px;
+    display: flex;
+    justify-content: space-between;
+}
+.info {
+    outline: 1px solid black;
+    width: 700px;
+    display: flex;
+}
+.info-text {
+    outline: 1px solid black;
+    width: 290px;
+    height: 306px;
+    background-color: rgb(5, 61, 94);
+}
+.info-picture {
+    outline: 1px solid black;
+    background-color: tomato;
+    width: 410px;
+    height: 306px;
+}
+.news {
+    outline: 1px solid black;
+    width: 210px;
+}
+.news-info {
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+.news-line {
+    border: 1px solid rgb(235, 235, 237);
+    margin-bottom: 22px;
+}
+.news-all {
+    outline: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(235, 235, 237);
+}
+.news-all-in {
+    outline: 1px solid black;
+    height: 83px;
+    font-size: 18px;
+    text-align: center;
+}
+.container-2 {
+    outline: 1px solid black;
+    margin: 0 auto;
+    padding-top: 38px;
+    width: 940px;
+    height: 175px;
+}
+.menu {
+    outline: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+}
+.menu-in {
+    outline: 1px solid black;
+    width: 290px;
+    height: 75px;
+}

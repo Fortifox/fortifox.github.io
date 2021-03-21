@@ -1,0 +1,12 @@
+.btn {
+    background-color: green;
+    color: wheat;
+    font-size: 18px;
+}
+@media screen and (max-width: 800px) {
+    .btn {
+        color: white;
+        background-color: black;
+        font-size: 22px;
+    }
+}
