@@ -1,0 +1,64 @@
+button {
+  width: 150px;
+  height: 90px;
+  font-size: 2em;
+  padding: 10px 30px;
+  transition: all 2s;
+    
+  &:hover {
+      background-color: aqua;
+      width: 200px;
+  }
+}
+.sq {
+  width: 150px;
+  height: 150px;
+  // background-color: green;
+  transition: all 2s;
+  animation: test 5s linear infinite;
+    
+  // &:hover {
+  //     background-color: yellow;
+  // }
+  }
+  @keyframes test {
+    0% {
+      background-color: violet;
+      width: 160;
+    }
+    50% {
+      background-color: wheat;
+      width: 170px;
+    }
+    75% {
+      background-color: turquoise;
+      width: 160px;
+    }
+    100% {
+      background-color: violet;
+    }
+  }
+.cont {
+  width: 600px;
+  height: 250px;
+  position: relative;
+  // background-color: rosybrown;
+
+  .one .two {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    top: 125px;
+    animation-timing-function: linear;
+    animation-duration: 3s;
+  }
+  .one {
+    background-color: blue;
+    left: 0px;
+  }
+  .two {
+    background-color: red;
+    left: 150px;
+  }
+}

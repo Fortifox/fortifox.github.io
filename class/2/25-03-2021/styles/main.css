@@ -1,0 +1,87 @@
+button {
+  width: 150px;
+  height: 90px;
+  font-size: 2em;
+  padding: 10px 30px;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+button:hover {
+  background-color: aqua;
+  width: 200px;
+}
+
+.sq {
+  width: 150px;
+  height: 150px;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+  -webkit-animation: test 5s linear infinite;
+          animation: test 5s linear infinite;
+}
+
+@-webkit-keyframes test {
+  0% {
+    background-color: violet;
+    width: 160;
+  }
+  50% {
+    background-color: wheat;
+    width: 170px;
+  }
+  75% {
+    background-color: turquoise;
+    width: 160px;
+  }
+  100% {
+    background-color: violet;
+  }
+}
+
+@keyframes test {
+  0% {
+    background-color: violet;
+    width: 160;
+  }
+  50% {
+    background-color: wheat;
+    width: 170px;
+  }
+  75% {
+    background-color: turquoise;
+    width: 160px;
+  }
+  100% {
+    background-color: violet;
+  }
+}
+
+.cont {
+  width: 600px;
+  height: 250px;
+  position: relative;
+}
+
+.cont .one .two {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+  top: 125px;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+.cont .one {
+  background-color: blue;
+  left: 0px;
+}
+
+.cont .two {
+  background-color: red;
+  left: 150px;
+}
+/*# sourceMappingURL=main.css.map */
