@@ -1,5 +1,5 @@
 body {
-  background-image: url("/images/1449530527.jpg");
+  background-image: url(../images/1449530527.jpg);
   background-size: 100%;
 }
 
@@ -9,7 +9,7 @@ body .main {
 }
 
 body .main .main-in {
-  margin-top: 850px;
+  margin-top: 780px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -34,12 +34,12 @@ body .main .main-in .off {
 }
 
 body .warning {
-  top: 280px;
-  left: 650px;
+  top: 180px;
+  left: 540px;
   position: absolute;
   width: 848px;
   height: 477px;
-  background-image: url("/images/86846.jpg");
+  background-image: url(../images/86846.jpg);
   background-size: 100%;
 }
 
