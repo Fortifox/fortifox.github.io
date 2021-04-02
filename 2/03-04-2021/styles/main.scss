@@ -1,0 +1,40 @@
+body {
+  background-image: url('/images/1449530527_3.jpg');
+  background-size: 100%;
+
+  .main {
+    margin: 0 auto;
+    width: 550px;
+
+    & .main-in {
+      margin-top: 850px;
+      display: flex;
+      justify-content: space-between;
+
+      .on, .off {
+        width: 250px;
+        height: 50px;
+        font-size: 1.5em;
+        color: white;
+      }
+      .on {
+        background-color: green;
+      }
+      .off {
+        background-color: rgb(168, 25, 25);
+      }
+    }
+  }
+  .warning {
+    top: 280px;
+    left: 650px;
+    position: absolute;
+    width: 848px;
+    height: 477px;
+    background-image: url('/images/86846.jpg');
+    background-size: 100%;
+  }
+  .hiden {
+    display: none;
+  }
+}
