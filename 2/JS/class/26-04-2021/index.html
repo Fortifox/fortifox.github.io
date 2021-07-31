@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>js</title>
+<meta charset="UTF-8">
+<meta name="discription" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+<link rel="stylesheet" href="./styles/main.css">
+<style>
+  .field {
+    background-color: antiquewhite;
+    margin-bottom: 2px;
+  }
+  .field > div > div {
+    border: 1px solid black;
+    width: 25px;
+    height: 25px;
+  }
+</style>
+</head>
+<body>
+  <form name="colsRows">
+    <label>
+      Rows
+      <input type="number" name="rows" pattern="/-?[0-9]+/">
+    </label>
+    <label>
+      Cols
+      <input type="number" name="cols" pattern="/-?[0-9]+/">
+    </label>
+    <button type="submit">GO</button>
+  </form>
+  <div class="field"></div>
+  
+  <script src="/js/main.js"></script>
+</body>
+</html>

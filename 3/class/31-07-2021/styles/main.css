@@ -1,0 +1,87 @@
+.box {
+  width: 400px;
+  height: 200px;
+  background: linear-gradient(to top, blue, yellow);
+}
+div p {
+  color: yellow;
+}
+h1 + p {
+  color: red;
+}
+.main-box {
+  width: 250px;
+  height: 30px;
+  border: 1px solid black;
+  background-color: cadetblue;
+}
+.main-box div {
+  margin-left: 40px;
+}
+.main-box:nth-child(2n) {
+  background-color: chartreuse;
+}
+
+
+a::before {
+  content: 'text';
+}
+a::after {
+  content: 'GM';
+}
+
+
+.btn {
+  margin: 25px;
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: green;
+}
+.btn:hover {
+  background-color: red;
+  color: white;
+}
+
+
+/* 8 дивов с градиентом */
+
+.odd-row {
+  height: 20px;
+  width: 160px;
+  background: repeating-linear-gradient(to right, white 0% 12.5%, black 12.5% 25%);
+}
+.even-row {
+  height: 20px;
+  width: 160px;
+  background: repeating-linear-gradient(to right, black 0% 12.5%, white 12.5% 25%);
+}
+
+/* 1 див с градиентом */
+
+.check-2 {
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  background-image: linear-gradient(45deg, black 25%, transparent 25%, transparent 74%, black 75%, black), 
+  linear-gradient(45deg,black 25%, transparent 25%, transparent 74%, black 75%, black);
+  background-size:100px 100px;
+  background-position: 0 0, 50px 50px;
+}
+
+.mains {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+}
+.inside {
+  border: 1px solid black;
+  width: 80px;
+  height: 80px;
+}
+.s1:nth-child(1n) {
+  background-color: black;
+}
+.s2:nth-child(2n) {
+  background-color: white;
+}

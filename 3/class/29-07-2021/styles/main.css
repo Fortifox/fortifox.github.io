@@ -1,0 +1,17 @@
+div {
+  /* margin-bottom: 25px; */
+  outline: 1px solid black;
+}
+.box-1 {
+  margin: 50px;
+  background-color: antiquewhite;
+}
+.box-2 {
+  margin-bottom: 100px;
+  margin-left: 180px;
+  background-color: aqua;
+}
+.box-3 {
+  margin-bottom: 25px;
+  margin-top: 70px;
+}
