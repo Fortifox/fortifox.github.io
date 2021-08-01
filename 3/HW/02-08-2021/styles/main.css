@@ -1,0 +1,23 @@
+
+.mains {
+  width: 655px;
+  height: 655px;
+  border: 1px solid black;
+}
+.row {
+  display: flex;
+}
+.inside {
+  border: 1px solid black;
+  width: 80px;
+  height: 80px;
+  font-size: 75px;
+}
+.dark {
+  background-color: gray;
+}
+.light {
+  background-color: rgb(241, 237, 237);
+}
+
+
