@@ -1,0 +1,135 @@
+.main {
+  /* border: 1px solid black; */
+  margin: 0 auto;
+  width: 1000px;
+  height: 400px;
+  position: relative;
+}
+.position {
+  position: absolute;
+}
+.active:hover {
+  background-color: aqua;
+  z-index: 7;
+  border-radius: 50px;
+  transition: 0.5s;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.main_in_1 {
+  width: 250px;
+  height: 100px;
+  bottom: 250px;
+  left: 375px;
+  background-color: red;
+  border-radius: 25px;
+  z-index: 5;
+}
+.main_in_2 {
+  width: 400px;
+  height: 100px;
+  bottom: 200px;
+  left: 300px;
+  background-color: violet;
+  border-radius: 25px;
+  z-index: 4;
+}
+.main_in_3 {
+  width: 550px;
+  height: 100px;
+  bottom: 150px;
+  left: 225px;
+  background-color: darkslateblue;
+  border-radius: 25px;
+  z-index: 3;
+}
+.main_in_4 {
+  width: 700px;
+  height: 100px;
+  bottom: 100px;
+  left: 150px;
+  background-color: teal;
+  border-radius: 25px;
+  z-index: 2;
+}
+.main_in_5 {
+  width: 850px;
+  height: 100px;
+  bottom: 50px;
+  left: 75px;
+  background-color: orange;
+  border-radius: 25px;
+  z-index: 1;
+}
+.main_in_6 {
+  width: 1000px;
+  height: 100px;
+  bottom: 0px;
+  background-color: grey;
+  border-radius: 25px;
+  z-index: 0;
+}
+
+
+.cub {
+  margin: 0 auto;
+  background-color: rgb(187, 187, 187);
+  width: 800px;
+  height: 800px;
+  position: relative;
+}
+
+.yellow-line {
+  width: 300px;
+  height: 30px;
+  background-color: yellow;
+  top: 200px;
+}
+.yellow-1 {
+  left: 100px;
+}
+.yellow-2 {
+  left: 400px;
+  z-index: 1;
+}
+
+.brown-line {
+  width: 30px;
+  height: 300px;
+  left: 200px;
+  background-color: brown;
+}
+.brown-1 {
+  top: 100px;
+}
+.brown-2 {
+  top: 400px;
+}
+
+.blak-line {
+  width: 30px;
+  height: 300px;
+  right: 200px;
+  background-color: black;
+}
+.blak-1 {
+  top: 100px;
+}
+.blak-2 {
+  top: 400px;
+  z-index: 1;
+}
+
+.blue-line {
+  width: 300px;
+  height: 30px;
+  bottom: 200px;
+  background-color: rgb(43, 43, 185);
+}
+.blue-1 {
+  left: 100px;
+  z-index: 1;
+}
+.blue-2 {
+  left: 400px;
+}
