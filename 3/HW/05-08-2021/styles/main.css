@@ -8,13 +8,15 @@
 .position {
   position: absolute;
 }
+.active {
+  transition: all 0.5s ease-out;
+}
 .active:hover {
   background-color: aqua;
-  z-index: 7;
   border-radius: 50px;
-  transition: 0.5s;
-  transform: scale(1.1);
   cursor: pointer;
+  /* z-index: 7; */
+  /* transform: scale(1.1); */
 }
 .main_in_1 {
   width: 250px;
