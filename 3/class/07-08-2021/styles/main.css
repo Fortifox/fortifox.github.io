@@ -1,0 +1,40 @@
+.main {
+  border: 1px solid black;
+  margin: 0 auto;
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.button-box {
+  border: 1px solid rgb(47, 255, 82);
+  width: 25%;
+}
+.buy {
+  width: 250px;
+  height: 100px;
+  background-color: blanchedalmond;
+  text-align: left;
+}
+
+.info {
+  border: 1px solid rgb(179, 46, 46);
+  width: 75%;
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.info-box {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 350px;
+}
+.info-box, .div {
+  background-image: url('/image/stul.png');
+  background-repeat: no-repeat;
+}
+.info-box, button {
+
+}

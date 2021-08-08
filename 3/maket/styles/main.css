@@ -1,0 +1,45 @@
+@import url('../styles/fonts.css');
+
+a {
+  text-decoration: none;
+}
+.header {
+  margin: 0 auto;
+}
+.container {
+  max-width: 1440px;
+  padding: 0 5px;
+  margin: 0 auto;
+}
+.header__inner {
+  background-image: url(../image/bg.png);
+  max-width: 1440;
+  padding-top: 41px;
+  padding-bottom: 71px;
+  text-align: center;
+}
+.header__inner-logo {
+  padding-bottom: 318px;
+}
+.header__text-title {
+  font-family: "BebasNeue";
+  font-size: 60px;
+  color: #FFFFFF;
+  letter-spacing: 5.71px;
+}
+.header__text-discrible {
+  font-family: "OpenSans", sans-serif;
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 22px;
+}
+.header__inner-text {
+  padding-bottom: 220px;
+}
+.header__inner-btn, a {
+  font-family: "OpenSans", sans-serif;
+  color: #FFFFFF;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 3.7px;
+}
