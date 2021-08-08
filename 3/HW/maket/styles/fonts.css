@@ -1,15 +1,10 @@
+
 @font-face {
-    font-family: "BebasNeue";
-    src: url(/fonts/Bebas_Neue/BebasNeue-Regular.ttf);
-    font-style: normal;
-    font-weight: normal;
-  }
-  @font-face {
-    font-family: "OpenSans";
-    src: url(/fonts/Open_Sans/OpenSans-Regular.ttf);
-    src: url(/fonts/Open_Sans/OpenSans-Bold.ttf);
-    src: url(/fonts/Open_Sans/OpenSans-ExtraBold.ttf);
-    src: url(/fonts/Open_Sans/OpenSans-SemiBold.ttf);
-    font-style: normal;
-    font-weight: normal;
-  }
+  font-family: "OpenSans";
+  src: url(/fonts/Open_Sans/OpenSans-Regular.ttf);
+  src: url(/fonts/Open_Sans/OpenSans-Bold.ttf);
+  src: url(/fonts/Open_Sans/OpenSans-ExtraBold.ttf);
+  src: url(/fonts/Open_Sans/OpenSans-SemiBold.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
