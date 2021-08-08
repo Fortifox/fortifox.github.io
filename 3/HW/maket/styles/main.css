@@ -1,72 +1,86 @@
-.header {
-  max-width: 1400px;
-  margin: 0 auto;
-  background-image: url(../image/Star-Wars-Battlefront-II-combat.png);
-  background-repeat: no-repeat;
-}
+@import url('../styles/fonts.css');
 
 .container {
-  /* border: 1px solid black; */
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+.header__inner {
+  background-image: url(../image/Star-Wars-Battlefront-II-combat.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   margin: 0 auto;
   max-width: 1130px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
 }
-.text-1 {
+.text-title {
   font-family: "OpenSans";
   color: #FFFFFF;
   font-size: 36px;
   line-height: 42px;
   padding-top: 206px;
-  padding-right: 296px;
+  padding-right: 270px;
 }
-.text-2 {
+.text-perform {
   font-family: "OpenSans";
   color: #FFFFFF;
   font-size: 24px;
   line-height: 14px;
 }
 
-.buttons {
+.header__inner-buttons {
   margin-top: 146px;
   margin-right: 133px;
 }
-.btn-1 {
+.button-trailer {
   width: 136px;
   height: 38px;
   border-radius: 4px;
   background-color: #8DD83D;
+  border: none;
+  font-family: "OpenSans";
+  font-size: 16px;
+  line-height: 21px;
   color: #FFFFFF;
   margin-right: 13px;
 }
-.btn-2 {
+.button-explore {
   width: 148px;
   height: 38px;
   border-radius: 4px;
   background-image: linear-gradient(#686C6F, #373A3C);
+  border: none;
+  font-family: "OpenSans";
+  font-size: 16px;
+  line-height: 21px;
   color: #FFFFFF;
 }
-.btn-2:hover {
+.button-explore:hover {
   background-color: #8DD83D;
   background-image: none;
 }
 
-.scroll {
+.header__inner-scroll {
   margin: 0 auto;
   max-width: 1130px;
   margin-top: 147px;
 }
-.scroll__in {
-  max-width: 50px;
+.scroll__inner {
   margin: 0 auto;
   padding-bottom: 38px;
   display: flex;
   justify-content: space-between;
 }
-.circle {
+.scroll__inner-circle {
   width: 10px;
   height: 10px;
   border: 1px solid #8DD83D;
   border-radius: 50px;
+  margin: 0 5px;
+}
+.circle-color {
+  background-color: #8DD83D;
 }

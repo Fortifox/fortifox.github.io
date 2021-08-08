@@ -13,6 +13,9 @@ a {
 }
 .header__inner {
   background-image: url(../image/bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   max-width: 1440;
   padding-top: 41px;
   padding-bottom: 71px;
