@@ -1,39 +1,52 @@
-@import url('../styles/fonts.css');
+@import url("../styles/fonts.css");
 
+div {
+  outline: 1px solid red;
+}
 .container {
   margin: 0 auto;
-  /* max-width: 1400px; */
+  max-width: 1400px;
+  padding: 0 5px;
 }
 
 .header__inner {
-  background-image: url(../image/Star-Wars-Battlefront-II-combat.png);
+  background-image: url("../image/Star-Wars-Battlefront-II-combat.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  padding-top: 206px;
+  padding-bottom: 200px;
+}
+
+.header__inner_text {
   margin: 0 auto;
-  max-width: 1130px;
+  display: flex;
+  max-width: 566px;
+  justify-content: flex-end;
+  margin-bottom: 134px;
+}
+.header__inner_text-about {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
 }
 .text-title {
-  font-family: "OpenSans";
+  font-family: "OpenSans" sans-serif;
   color: #FFFFFF;
   font-size: 36px;
   line-height: 42px;
-  padding-top: 206px;
-  padding-right: 270px;
 }
 .text-perform {
-  font-family: "OpenSans";
+  font-family: "OpenSans" sans-serif;
   color: #FFFFFF;
   font-size: 24px;
   line-height: 14px;
 }
 
 .header__inner-buttons {
-  margin-top: 146px;
-  margin-right: 133px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  max-width: 850px;
 }
 .button-trailer {
   width: 136px;
@@ -41,7 +54,7 @@
   border-radius: 4px;
   background-color: #8DD83D;
   border: none;
-  font-family: "OpenSans";
+  font-family: "OpenSans" sans-serif;
   font-size: 16px;
   line-height: 21px;
   color: #FFFFFF;
@@ -53,7 +66,7 @@
   border-radius: 4px;
   background-image: linear-gradient(#686C6F, #373A3C);
   border: none;
-  font-family: "OpenSans";
+  font-family: "OpenSans" sans-serif;
   font-size: 16px;
   line-height: 21px;
   color: #FFFFFF;
@@ -61,26 +74,4 @@
 .button-explore:hover {
   background-color: #8DD83D;
   background-image: none;
-}
-
-.header__inner-scroll {
-  margin: 0 auto;
-  max-width: 1130px;
-  margin-top: 147px;
-}
-.scroll__inner {
-  margin: 0 auto;
-  padding-bottom: 38px;
-  display: flex;
-  justify-content: space-between;
-}
-.scroll__inner-circle {
-  width: 10px;
-  height: 10px;
-  border: 1px solid #8DD83D;
-  border-radius: 50px;
-  margin: 0 5px;
-}
-.circle-color {
-  background-color: #8DD83D;
 }
