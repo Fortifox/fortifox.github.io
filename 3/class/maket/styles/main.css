@@ -1,5 +1,6 @@
 @import url('../styles/fonts.css');
 
+/* global */
 a {
   text-decoration: none;
 }
@@ -14,6 +15,13 @@ li {
   padding: 0 5px;
   margin: 0 auto;
 }
+.small-container {
+  max-width: 942px;
+  margin: 0 auto;
+  padding: 0 5px;
+}
+
+/* header */
 .header__inner {
   background-image: url("../image/bg.png");
   background-repeat: no-repeat;
@@ -51,10 +59,12 @@ li {
 }
 .menu {
   margin: 0 auto;
+  margin-bottom: 58px;
 }
 .menu__inner {
-  background-color: #E6E6E6;
-  padding: 24px 250px 23px;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #E6E6E6;
+  padding: 22px 250px 21px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -90,4 +100,90 @@ li {
 }
 .menu__list-item a:hover {
   color: #00A4E5;
+}
+
+/* about */
+.about {
+  margin: 0 auto;
+}
+.about__inner {
+  text-align: center;
+}
+.about__title {
+  display: inline-block;
+  font-family: "OpenSans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 2.3px;
+  color: #48555B;
+  margin-bottom: 40px;
+}
+.about__title {
+  position: relative;
+}
+.about__title::before {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 2px;
+  bottom: -10px;
+  left: 35px;
+  background-color: #00A4E5;
+}
+.about__box-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about__text-title {
+  margin-bottom: 30px;
+  font-family: "OpenSans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.2px;
+  padding-right: 30px;
+}
+.about__text-box {
+  text-align: left;
+  margin-right: 77px;
+}
+.about__text-box span {
+  color: #16ACE8;
+}
+.about__content-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about__text-discript {
+  font-family: "OpenSans", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 23px;
+  letter-spacing: 0.2px;
+  color: #48555B;
+}
+.about__content-item {
+  position: relative;
+}
+.about__content-item img {
+  width: 140px;
+  height: 224px;
+}
+.content-item_title {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-family: "OpenSans", sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.1875px;
+  color: #FFFFFF;
+  text-align: left;
+}
+.about__content-item + .about__content-item {
+  margin-left: 10px;
 }

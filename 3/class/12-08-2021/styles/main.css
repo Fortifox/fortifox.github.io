@@ -1,0 +1,68 @@
+@import url("../styles/fonts.css");
+
+.header {
+  margin: 0 auto;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1400px;
+  padding: 0 5px;
+}
+.header__inner {
+  background-image: url("../image/Star-Wars-Battlefront-II-combat.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 206px;
+  padding-bottom: 200px;
+}
+.header__about {
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  max-width: 566px;
+  margin-bottom: 134px;
+}
+.header__about-inner {
+  display: flex;
+  flex-direction: column;
+}
+.header__about div {
+  color: white;
+  font-family: "OpenSans" sans-serif;
+}
+.header__about-title {
+  font-size: 36px;
+  line-height: 42px;
+}
+.header__about-part {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.header__btns {
+  margin: 0 auto;
+  max-width: 800px;
+  display: flex;
+  justify-content: flex-end;
+}
+.header__btn {
+  border-radius: 4px;
+  text-align: center;
+  font-family: "OpenSans" sans-serif;
+  font-size: 16px;
+  line-height: 21px;
+  color: white;
+  border: none;
+}
+.watch {
+  font-family: "OpenSans" sans-serif;
+  padding: 8px 19px 9px;
+  background-color: #8DD83D;
+  margin-right: 13px;
+}
+.explore {
+  font-family: "OpenSans" sans-serif;
+  padding: 8px 24px 9px 19px;
+  background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+}
