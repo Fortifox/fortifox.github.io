@@ -168,9 +168,7 @@ input {
 }
 
 /* main */
-div {
-  outline: 1px solid red;
-}
+
 .main__inner {
   padding-top: 64px;
   padding-bottom: 162px;
