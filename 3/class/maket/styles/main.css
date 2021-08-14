@@ -187,3 +187,76 @@ li {
 .about__content-item + .about__content-item {
   margin-left: 10px;
 }
+
+/* servise */
+
+.servise {
+  margin: 0 auto;
+}
+.servise__top {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 78px;
+}
+.sevise__top-title {
+  position: relative;
+}
+.sevise__top-title::before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #00A4E5;
+}
+.servise__top-text {
+  max-width: 405px;
+  margin-left: 155px;
+  font-family: "OpenSans", sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+  color: #48555B;
+}
+.servise__top-btn a {
+  font-family: "OpenSans", sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  background: #00A4E5;
+  padding: 11px 29px;
+}
+.servise__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.servise__content-item {
+  padding: 38px 22px;
+}
+.servise__item-icon {
+  margin-bottom: 25px;
+}
+.servise__item-title {
+  font-family: "OpenSans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #48555B;
+  letter-spacing: 0.4px;
+  margin-bottom: 13px;
+}
+
+.servise__item-text {
+  font-family: "OpenSans", sans-serif;
+  font-size: 13px;
+  line-height: 23px;
+  font-weight: 700;
+  color: #48555B;
+  letter-spacing: 0.2px;
+}
