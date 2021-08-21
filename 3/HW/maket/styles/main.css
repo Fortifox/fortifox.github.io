@@ -309,3 +309,61 @@ input {
   color: #FFFFFF;
   padding: 19px 23px;
 }
+
+/* footer */
+
+div {
+  /* border: 1px solid green; */
+}
+
+.footer__inner {
+  padding-top: 58px;
+  padding-bottom: 38px;
+}
+.footer__links {
+  max-width: 852px;
+  margin-left: 165px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__lists-title, .footer__contacts-title {
+  font-family: "OpenSans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #7DD42F;
+  padding-bottom: 34px;
+}
+.footer__lists a {
+  font-family: "OpenSans", sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  padding-bottom: 29px;
+}
+.footer__contacts-socials {
+  display: flex;
+  justify-content: space-between;
+}
+.line {
+  max-width: 1200px;
+  margin: 0 auto;
+  mix-blend-mode: normal;
+  opacity: 0.35;
+  border: 1px solid #FFFFFF;
+  margin-top: 20px;
+}
+.footer__down {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.footer__down_inner {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 19px;
+}
+.down_inner-title {
+  font-family: "OpenSans", sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
