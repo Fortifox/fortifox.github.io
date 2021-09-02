@@ -1,0 +1,35 @@
+
+/* global */
+*{
+  box-sizing: border-box;
+}
+.main {
+  margin: 0 auto;
+  background-image: url('../image/clock.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 800px;
+  height: 800px;
+  position: relative;
+}
+
+.arrow {
+  border-right: 7px solid rgb(219, 35, 35);
+  width: 280px;
+  height: 280px;
+  position: absolute;
+  left: 120px;
+  top: 120px;
+  animation: arrow-move 60s infinite steps(60);
+  transform-origin: right bottom;
+}
+
+@keyframes arrow-move {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
