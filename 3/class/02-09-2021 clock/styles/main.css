@@ -20,7 +20,7 @@
   position: absolute;
   left: 120px;
   top: 120px;
-  animation: arrow-move 60s infinite steps(60);
+  animation: arrow-move 60s steps(60, end);
   transform-origin: right bottom;
 }
 
@@ -28,7 +28,6 @@
   0% {
     transform: rotate(0deg);
   }
-
   100% {
     transform: rotate(360deg);
   }
