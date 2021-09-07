@@ -18,9 +18,7 @@ li {
 body {
   background-color: #FCFCFC;
 }
-.div {
-  border: 1px solid black;
-}
+
 /* header sidebar */
 
 .header {
@@ -74,17 +72,20 @@ body {
 
 // bar section
 
-.bar__menu {
-  background: #FCFCFC;
-  &-inner {
-    max-width: 1110px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    padding-top: 25px;
-    padding-bottom: 27px;
+.bar {
+  &__menu {
+    background: #FCFCFC;
+    &-inner {
+      max-width: 1110px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      padding-top: 25px;
+      padding-bottom: 27px;
+    }
   }
 }
+
 .box {
   &_phone, &_auto {
     width: 359px;
@@ -106,8 +107,98 @@ body {
   width: 1110px;
   margin: 0 auto;
   border: 1px solid #E8E8EE;
-  // margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 // main section
+
+.main {
+
+  &__inner_menu {
+    margin: 0 auto;
+    max-width: 1100px;
+    margin-bottom: 27px;
+    display: flex;
+    justify-content: space-between;
+    
+    &-title {
+      font-family: "OpenSans", sans-serif;
+      font-size: 24px;
+      line-height: 28px;
+    }
+    &-text, :first-child, :nth-last-child(1) {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  &__inner_boxs {
+    margin: 0 auto;
+    max-width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    &-block {
+      margin-bottom: 31px;
+      background: #FFFFFF;
+      border: 1px solid #E8E8EE;
+    }
+  }
+
+  .block-img {
+    width: 253px;
+    height: 253px;
+    background-image: url('../image/stul.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .block-title {
+    margin: 21px 16px;
+    font-family: "OpenSans", sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .block-text {
+    margin: 9px 16px 28px;
+    font-family: "OpenSans", sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .block-line {
+    border: 1px solid #E8E8EE;
+    margin-bottom: 11px;
+  }
+  .block-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px 13px 14px;
+
+    &-location, &-time {
+      font-family: "OpenSans", sans-serif;
+      font-size: 12px;
+      line-height: 14px;
+      color: #828282;
+    }
+  }
+}
+
+.footer {
+  padding-bottom: 139px;
+
+  &__inner, a {
+    margin: 0 auto;
+    width: 182px;
+    font-family: "OpenSans", sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #4E3AA7;
+  }
+  &__inner .btn {
+    padding: 13px 0 13px 0;
+    border-radius: 3px;
+    border: 1px solid #4E3AA7;
+  }
+}
 
