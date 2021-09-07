@@ -3,103 +3,130 @@
 *{
   /* box-sizing: border-box; */
 }
+.box {
+  margin: 0 auto;
+  position: relative;
+  width: 750px;
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.place1 {
+  /* background-color: blue; */
+  background-image: url('../image/place.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100px;
+  height: 400px;
+}
+.place2 {
+  /* background-color: blue; */
+  background-image: url('../image/place.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100px;
+  height: 350px;
+}
+.place3 {
+  /* background-color: blue; */
+  background-image: url('../image/place.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100px;
+  height: 300px;
+}
+.place4 {
+  /* background-color: blue; */
+  background-image: url('../image/place.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100px;
+  height: 250px;
+}
+.place5 {
+  /* background-color: blue; */
+  background-image: url('../image/place.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100px;
+  height: 200px;
+}
 
 .ball {
   position: absolute;
   width: 100px;
   height: 100px;
-  background: red;
-  border-radius: 100%;
-  left: 150px;
-  animation: up-move 5s linear infinite,
-             side-move 5s linear infinite;
+  background-image: url('../image/ball.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  animation: up-move 4s linear infinite,
+             side-move 4s linear infinite;
 }
 
 @keyframes up-move {
-  0% {top: 0px;}
-  5% {top: 50px}
-  10% {top: 150px;}
-  15% {top: 250px;}
-  20% {top: 350px;}
+  0% {bottom: 400px;}
+  3% {bottom: 425px;}
+  6% {bottom: 450px;}
+  9% {bottom: 400px;}
+  12% {bottom: 350px;}
 
-  25% {top: 280px;}
-  30% {top: 250px;}
-  35% {top: 350px;}
-  40% {top: 400px;}
+  15% {bottom: 375px;}
+  18% {bottom: 375px;}
+  21% {bottom: 350px;}
+  24% {bottom: 300px;}
 
-  45% {top: 300px;}
-  50% {top: 350px;}
-  55% {top: 400px;}
-  60% {top: 450px;}
+  27% {bottom: 350px;}
+  30% {bottom: 325px;}
+  33% {bottom: 300px;}
+  36% {bottom: 250px;}
 
-  65% {top: 350px;}
-  70% {top: 400px;}
-  75% {top: 450px;}
-  80% {top: 500px;}
+  39% {bottom: 275px;}
+  42% {bottom: 300px;}
+  45% {bottom: 250px;}
+  48% {bottom: 200px;}
 
-  85% {top: 400px;}
-  90% {top: 450px;}
-  95% {top: 500px;}
-  97% {top: 550px;}
-  100% {top: 540px;}
+/* back move */
+
+  51% {bottom: 200px;}
+  54% {bottom: 250px;}
+  57% {bottom: 300px;}
+  60% {bottom: 275px;}
+
+  63% {bottom: 250px;}
+  66% {bottom: 300px;}
+  69% {bottom: 350px;}
+  72% {bottom: 325px;}
+
+  75% {bottom: 300px;}
+  78% {bottom: 325px;}
+  81% {bottom: 375px;}
+  84% {bottom: 350px;}
+
+  87% {bottom: 350px;}
+  90% {bottom: 400px;}
+  93% {bottom: 450px;}
+  96% {bottom: 425px;}
+  100% {bottom: 400px;}
 }
 @keyframes side-move {
   0% {
-    left: 170px;
+    left: 0px;
   }
-  20% {
-    left: 170px;
+  50% {
+    left: 650px;
   }
-  40% {
-    left: 370px;
-  }
-  60% {
-    left: 570px;
-  }
-  80% {
-    left: 770px;
+  50% {
+    left: 650px;
   }
   100% {
-    left: 970px;
+    left: 0px;
   }
-}
-.place1 {
-  background-color: blue;
-  position: absolute;
-  width: 100px;
-  height: 400px;
-  top: 450px;
-  left: 170px;
-}
-.place2 {
-  background-color: blue;
-  position: absolute;
-  width: 100px;
-  height: 350px;
-  top: 500px;
-  left: 370px;
-}
-.place3 {
-  background-color: blue;
-  position: absolute;
-  width: 100px;
-  height: 300px;
-  top: 550px;
-  left: 570px;
-}
-.place4 {
-  background-color: blue;
-  position: absolute;
-  width: 100px;
-  height: 250px;
-  top: 600px;
-  left: 770px;
-}
-.place5 {
-  background-color: blue;
-  position: absolute;
-  width: 100px;
-  height: 200px;
-  top: 650px;
-  left: 970px;
 }

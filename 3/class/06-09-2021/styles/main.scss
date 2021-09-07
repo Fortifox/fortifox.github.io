@@ -1,0 +1,60 @@
+*{
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  // grid-row-gap: 20px;
+  // grid-column-gap: 20px;
+  grid-gap: 10px;
+  height: 50vh;
+  grid-template-areas: "A A B"
+                       "C C F"
+                       "G G F"
+                       "D D D";
+}
+
+.container div {
+  padding: 5px;
+  background-color: aqua;
+}
+.container .box-2 {
+  background-color: rgb(207, 91, 91);
+}
+.container .box-3 {
+  background-color: rgb(91, 112, 207);
+}
+.container .box-4 {
+  background-color: rgb(42, 241, 192);
+}
+.container .box-5 {
+  background-color: rgb(194, 91, 207);
+}
+.container .box-6 {
+  background-color: rgb(247, 189, 66);
+}
+
+
+
+
+.box-1 {
+  grid-area: A;
+}
+.box-2 {
+  grid-area: B;
+}
+.box-3 {
+  grid-area: C;
+}
+.box-3 {
+  grid-area: D;
+}
+.box-3 {
+  grid-area: F;
+}
+.box-3 {
+  grid-area: G;
+}

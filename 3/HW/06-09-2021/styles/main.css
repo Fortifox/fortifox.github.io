@@ -1,0 +1,130 @@
+@import url("./fonts.css");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1920px;
+  padding: 0 5px;
+}
+
+body {
+  background-color: #FCFCFC;
+}
+
+.div {
+  border: 1px solid black;
+}
+
+/* header sidebar */
+.header__sidebar {
+  background: #E5E5E5;
+}
+
+.header__sidebar-inner {
+  background-color: #F2F2F2;
+}
+
+.header__sidebar-main {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.header__main {
+  background: #FFFFFF;
+  border: 1px solid #E8E8EE;
+}
+
+.header__main-inner {
+  margin: 0 auto;
+  max-width: 1110px;
+  padding-top: 20px;
+  padding-bottom: 19px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sidebar__suport, .sidebar__login {
+  font-family: "OpenSans", sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  color: #4F4F4F;
+  font-weight: 600;
+}
+
+.sidebar__login {
+  margin-left: 37px;
+}
+
+.burger {
+  background-image: url(../image/burger.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 26px;
+  height: 19px;
+}
+
+.bar__menu {
+  background: #FCFCFC;
+}
+
+.bar__menu-inner {
+  max-width: 1110px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 25px;
+  padding-bottom: 27px;
+}
+
+.box_phone, .box_auto {
+  width: 359px;
+  height: 169px;
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.box_phone {
+  background-color: #FF9191;
+  background-image: url(../image/phone.png);
+}
+
+.box_auto {
+  background-color: #56CCF2;
+  background-image: url(../image/auto.png);
+}
+
+.line {
+  width: 1110px;
+  margin: 0 auto;
+  border: 1px solid #E8E8EE;
+}
+/*# sourceMappingURL=main.css.map */
