@@ -1,0 +1,82 @@
+*{
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+
+
+div {
+  border: 1px solid black;
+  // padding: 5px;
+  background-color: blanchedalmond;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.body {
+  margin: 0 auto;
+
+  &__inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "logo logo about"
+                         "scrol circl circl"
+                         "scrol flowers flowers"
+                         "lin lin lin"
+                         "texts texts texts"
+                         "hills hills hills";
+
+    &_logo {
+      grid-area: logo;
+      
+      &-logo {
+        width: 100px;
+        height: 100px;
+        background-image: url('');
+      }
+    }
+
+    &_about {
+      grid-area: about;
+    }
+
+    &_scroll {
+      grid-area: scrol;
+      display: grid;
+      // overflow: scroll;
+    }
+    &_scroll div {
+      width: 100px;
+      height: 300px;
+    }
+
+    &_circle {
+      grid-area: circl;
+    }
+
+    &_flowers {
+      grid-area: flowers;
+      background-image: url('');
+    }
+
+    &_line {
+      grid-area: lin;
+    }
+
+    &_texts {
+      grid-area: texts;
+    }
+
+    &_hills {
+      grid-area: hills;
+      background-image: url('');
+    }
+  }
+}

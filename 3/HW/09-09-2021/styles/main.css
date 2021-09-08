@@ -1,0 +1,104 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+div {
+  border: 1px solid black;
+  background-color: blanchedalmond;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.body {
+  margin: 0 auto;
+}
+
+.body__inner {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 2fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 2fr 1fr 1fr 1fr 1fr;
+      grid-template-areas: "logo logo about" "scrol circl circl" "scrol flowers flowers" "lin lin lin" "texts texts texts" "hills hills hills";
+}
+
+.body__inner_logo {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: logo;
+}
+
+.body__inner_logo-logo {
+  width: 100px;
+  height: 100px;
+  background-image: url("");
+}
+
+.body__inner_about {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: about;
+}
+
+.body__inner_scroll {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  grid-area: scrol;
+  display: -ms-grid;
+  display: grid;
+}
+
+.body__inner_scroll div {
+  width: 100px;
+  height: 300px;
+}
+
+.body__inner_circle {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: circl;
+}
+
+.body__inner_flowers {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: flowers;
+  background-image: url("");
+}
+
+.body__inner_line {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: lin;
+}
+
+.body__inner_texts {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: texts;
+}
+
+.body__inner_hills {
+  -ms-grid-row: 6;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: hills;
+  background-image: url("");
+}
+/*# sourceMappingURL=main.css.map */
