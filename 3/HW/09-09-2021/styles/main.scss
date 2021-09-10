@@ -27,7 +27,7 @@ div {
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 2fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 0,3fr 1fr 1fr;
     grid-template-areas: "logo logo about"
                          "scrol circl circl"
                          "scrol flowers flowers"
@@ -60,31 +60,31 @@ div {
       overflow: scroll;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-      grid-template-areas: "box-1 ."
-                           "box-1 box-2"
-                           "box-3 box-2"
-                           "box-3 box-4"
-                           "box-5 box-4"
-                           "box-5 .";
+      grid-template-areas: "box1 ."
+                           "box1 box2"
+                           "box3 box2"
+                           "box3 box4"
+                           "box5 box4"
+                           "box5 .";
 
-      &-box-1 {
-        grid-area: box-1;
+      &-box1 {
+        grid-area: box1;
       }
 
-      &-box-2 {
-        grid-area: box-2;
+      &-box2 {
+        grid-area: box2;
       }
 
-      &-box-3 {
-        grid-area: box-3;
+      &-box3 {
+        grid-area: box3;
       }
 
-      &-box-4 {
-        grid-area: box-4;
+      &-box4 {
+        grid-area: box4;
       }
 
-      &-box-5 {
-        grid-area: box-5;
+      &-box5 {
+        grid-area: box5;
       }
     }
 
@@ -138,7 +138,19 @@ div {
 
     &_line {
       grid-area: lin;
+      width:100%;
+      white-space:nowrap;
+      overflow:hidden;
     }
+    &_line span {
+      display:inline-block;
+      padding-left:100%;
+      animation: marquee 6s infinite linear;
+    }
+    @keyframes marquee{
+      0%{transform: translate(0, 0);}
+      100%{transform: translate(-100%, 0)}
+      }
 
     &_texts {
       grid-area: texts;
