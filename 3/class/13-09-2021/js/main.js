@@ -48,18 +48,34 @@
 //     alert (`Число ${str} больше 10`);
 // } 
 
-let a = prompt('Введите число A', '');
-let c = prompt('Введите число C', '');
-let d = prompt('Введите число D', '');
+// let a = prompt('Введите число A', '');
+// let c = prompt('Введите число C', '');
+// let d = prompt('Введите число D', '');
 
-let x = (d-a)/(c*2);
-let result = `X = ${x}`;
+// let x = (d-a)/(c*2);
+// let result = `X = ${x}`;
 
-if (x > 0) {
-    alert(`X со знаком + и равен ${x}`);
-} else if (x < 0) {
-    alert(`X со знаком - и равен ${x}`);
-} else {
-    alert(`wasted X равен ${x}`);
+// if (x > 0) {
+//     alert(`X со знаком + и равен ${x}`);
+// } else if (x < 0) {
+//     alert(`X со знаком - и равен ${x}`);
+// } else {
+//     alert(`wasted X равен ${x}`);
+// }
+// alert(result);
+
+
+let num1 = prompt('Укажите первое число');
+let num2 = prompt('Укажите второе число');
+const result = (num1-num2);
+
+if (result > 0) {
+  alert('Значение больше нуля');
+} 
+else if (result < 0) {
+  alert('Значение меньше нуля');
+} 
+else (result = 0) {
+  alert('Значение равно нулю');
 }
 alert(result);
