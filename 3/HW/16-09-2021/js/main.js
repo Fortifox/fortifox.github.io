@@ -16,8 +16,10 @@ else {
 // задача №2
 let money = prompt('Введите сумму вклада на 6 месяцев');
 let percent = prompt('Ведите годовой процент');
+let T = 182; // количество дней вклада
+let K = 365; // дней в году
 
-let result = (money/100*percent)/2;
+let result = (money*percent*(T/K))/100;
 alert(`Полученный доход по депозитному вкладу на 6 ме. составит ${result}`);
 
 
