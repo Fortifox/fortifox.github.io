@@ -55,7 +55,7 @@
 // console.log(aStr);
 
 for (let i = 100; i < 199; i++) {
-  if (i % 3 == 0 ) {
+  if (i % 10 == 4 && i % 3 == 0 ) {
     console.log(i);
   }
 }
