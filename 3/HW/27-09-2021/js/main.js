@@ -1,43 +1,79 @@
-// exercise1
+// exercise 1
 const arr1 = [1, 8, -3, 4];
-const exercise1 = (arrArr1) => {
-  for (let i = 0; i < 100; i++) {
-    arr1.push(0);
-  };
+for (let i = 0; i < 100; i++) {
+  arr1.push(0);
 };
-exercise1(1);
-console.log(arr1);
+console.log('№ 1', arr1);
 
-// exercise2
+// exercise 2
 const arr2 = [1, 8, -3, 4];
-const exercise2 = (arrArr2) => {
-  arr2.length = 100;
-  for (let i = 0; i < arr2.length; i++) {
-    if (arr2.el != 0) {
-      arr2.push(0);
-    }
-  };
+for (let i = 0; i < 100; i++) {
+  if (arr2[i] !== 0) {
+    arr2.push(0);
+  }
 };
-exercise2(1);
-console.log(arr2);
+console.log('№ 2', arr2);
 
-// exercise3
+// exercise 3
 const arr3 = [1, 8, -3, 4];
-const exercise3 = (arrArr3) => {
-  for(let i = 0; i < 100; i++){    
-     arr3.unshift(0);
-    };
+for (let i = 0; i < 100; i++) {
+  arr3.unshift(0);
 };
-exercise3(0);
-console.log(arr3);
+console.log('№ 3', arr3);
 
-// exercise4
+// exercise 4
 const arr4 = [1, 8, -3, 4];
-arr4.length = 100;
-const exercise4 = (arrArr4) => {
-  for(let i = 0; i <= arr4.length; i++){    
-     arr4.unshift(0);
-    };
+for (let i = 0; i < 100; i++) {
+  if (arr4.length < 100) {
+    arr4.unshift(0);
+  }
 };
-exercise4(0);
-console.log(arr4);
+console.log('№ 4', arr4);
+
+// exercise 5
+
+// exercise 6
+const arr6 = [1, 8, -3, 4];
+let k = arr6.length * 20;
+for (let i = 0; i < k; i++) {
+  arr6.push(arr6[i]);
+};
+console.log('№ 6', arr6);
+
+// exercise 7
+const arr7 = [1, 8, -3, 4];
+let z = arr7[0] + arr7[1] + arr7[2] + arr7[3];
+for (let i = 0; i < arr7.length; i++) {
+  if (arr7.length < 5) {
+    arr7.push(z);
+  }
+};
+console.log('№ 7', arr7);
+
+
+// exercise 8
+const arr8 = [1, 8, -3, 4, 3, 1];
+let a = 0;
+let b = 0;
+for (let i = 0; i < arr8.length; i++) {
+  if (arr8[i] < 0) {
+    
+  } else if ( arr8[i] > 0) {
+    
+  }
+};
+// console.log('№ 8', arr8);
+
+// exercise 9
+const arr9 = [1, 8, -3, 4];
+for (let i = 0; i < arr9.length; i++) {
+	arr9[i] = arr9[i] * 2;
+};
+console.log('№ 9', arr9);
+
+// exercise 10
+const arr10 = [1, 8, -3, 4];
+for (let i = 0; i < arr10.length; i++) {
+
+};
+// console.log('№ 10', arr10);
