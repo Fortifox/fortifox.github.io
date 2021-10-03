@@ -42,12 +42,11 @@ console.log('№ 6', arr6);
 
 // exercise 7
 const arr7 = [1, 8, -3, 4];
-let z = arr7[0] + arr7[1] + arr7[2] + arr7[3];
+let sum7 = 0;
 for (let i = 0; i < arr7.length; i++) {
-  if (arr7.length < 5) {
-    arr7.push(z);
-  }
+    sum7 += arr7[i];
 };
+arr7.push(sum7);
 console.log('№ 7', arr7);
 
 
@@ -57,12 +56,14 @@ let a = 0;
 let b = 0;
 for (let i = 0; i < arr8.length; i++) {
   if (arr8[i] < 0) {
-    
+    a += arr8[i];
   } else if ( arr8[i] > 0) {
-    
+    b += arr8[i];
   }
 };
-// console.log('№ 8', arr8);
+arr8.push(a);
+arr8.push(b);
+console.log('№ 8', arr8);
 
 // exercise 9
 const arr9 = [1, 8, -3, 4];
