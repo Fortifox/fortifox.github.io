@@ -11,13 +11,14 @@
 
 5) Добавить нумерацию выведенных фильмов */
 
-const movieDB = {
-    movies: [
-        "ГЛАВНЫЙ ГЕРОЙ",
-        "ГЛАДИАТОР",
-        "ГОДЗИЛЛА 2",
-        "ВРЕМЯ",
-        "НИКТО"
-    ]
-};
+// 1
+const promo__adv = document.querySelector('.promo__adv');
+promo__adv.style.display = 'none';
 
+// 2
+const promo__genre = document.querySelector('.promo__genre');
+promo__genre.innerText = 'Эпическая фантастика';
+
+// 3
+const promo__bg = document.querySelector('.promo__bg');
+promo__bg.classList.add('bg_new');

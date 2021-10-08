@@ -352,4 +352,8 @@
   width: 100%;
   margin-bottom: 10px;
 }
+
+.bg_new {
+  background-image: url("../img/bg.jpg");
+}
 /*# sourceMappingURL=main.css.map */
