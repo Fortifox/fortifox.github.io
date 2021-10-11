@@ -5,10 +5,11 @@
 
 input {
   height: 50px;
-  width: 180px;
+  width: 220px;
 }
 
 button {
+  background-color: #55d4aa;
   height: 50px;
   width: 60px;
 }
