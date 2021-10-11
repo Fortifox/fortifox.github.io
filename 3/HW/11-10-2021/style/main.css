@@ -1,0 +1,19 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+input {
+  height: 50px;
+  width: 180px;
+}
+
+button {
+  height: 50px;
+  width: 60px;
+}
+
+.result {
+  margin-top: 10px;
+}
+/*# sourceMappingURL=main.css.map */
