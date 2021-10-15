@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+div {
+  /* border: 1px solid black; */
+}
+body {
+  text-align: center;
+}
+button {
+  height: 50px;
+  width: 60px;
+  border-radius: 10px;
+  color: blue;
+}
+.main {
+  margin: 0 auto;
+  height: 500px;
+  width: 500px;
+  border: 1px solid black;
+}
+.inner {
+  position: relative;
+}
+.square {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background-color: rgb(48, 207, 207);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.move-up {
+  animation: moveUp 3s linear;
+}
+.move-down {
+  animation: moveDown 3s linear;
+}
+.move-left {  
+  animation: moveLeft 3s linear;
+}
+.move-right {
+  animation: moveRight 3s linear;
+}
+.change-size {
+  animation: changeSize 3s linear;
+}
+
+@keyframes moveUp {
+  100% {
+    transform: translateY(-250px);
+  } 
+}
+@keyframes moveDown {
+  100% {
+    transform: translateY(200px);
+  } 
+}
+@keyframes moveLeft {
+  100% {
+    transform: translateX(-250px);
+  }
+}
+@keyframes moveRight {
+  100% {
+    transform: translateX(200px);
+  } 
+}
