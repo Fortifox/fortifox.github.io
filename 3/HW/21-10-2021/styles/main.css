@@ -1,0 +1,54 @@
+body {
+  box-sizing: border-box;
+}
+div {
+  /* border: 1px solid black; */
+}
+.body__inner {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.body__inner_field {
+  width: 800px;
+  height: 600px;
+  border: 3px solid;
+  position: absolute;
+}
+
+.body__inner_field-ball {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid;
+  background-color: rgb(123, 226, 19);
+  position: relative;
+  display: none;
+}
+.red {
+  background-color: red;
+}
+
+.body__inner_menu-btn {
+  width: 100px;
+  height: 30px;
+  background-color: rgb(123, 226, 19);
+  margin-bottom: 10px;
+}
+
+select {
+  width: 100px;
+  height: 30px;
+}
+
+.body__inner_menu {
+  margin-left: 820px;
+}
+
+.body__inner_menu-result {
+  width: 100px;
+  height: 20px;
+  margin-top: 10px;
+}
+
+
