@@ -22,6 +22,7 @@ div {
   background-color: rgb(123, 226, 19);
   position: relative;
   display: none;
+  transition: 1s transform;
 }
 .red {
   background-color: red;
@@ -44,5 +45,9 @@ select {
   height: 20px;
   margin-top: 10px;
 }
+/* 
+@keyframes transform {
+  100% {
 
-
+  }
+} */
